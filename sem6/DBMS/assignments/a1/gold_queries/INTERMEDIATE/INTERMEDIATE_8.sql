@@ -1,0 +1,2 @@
+with tmp1 as( select subject_id, hadm_id, (dischtime::timestamp - admittime::timestamp) as duration from hosp.admissions where dischtime is not NULL)
+select subject_id, avg(duration) from tmp1 group by subject_id order by subject_id;

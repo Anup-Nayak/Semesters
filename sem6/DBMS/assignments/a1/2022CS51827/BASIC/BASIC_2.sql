@@ -1,0 +1,6 @@
+SELECT COUNT(DISTINCT SUBJECT_ID) AS count,
+EXTRACT(YEAR FROM TO_TIMESTAMP(admittime, 'YYYY-MM-DD HH24:MI:SS')) AS year 
+FROM hosp.admissions
+GROUP BY year
+ORDER BY count DESC, year
+LIMIT 5;
