@@ -1,0 +1,14 @@
+---
+:id: 206500747
+:submitters:
+- :name: Saem Habeeb
+  :email: mt6222004@iitd.ac.in
+- :name: Anup Nayak
+  :email: cs5221827@cse.iitd.ac.in
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2023-10-26 17:50:30.738313000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2023-10-26 10:50:30.738313000 Z
+:status: processed
+:score: 60.0
